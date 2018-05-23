@@ -8,5 +8,4 @@ if [ -z "$NAME" ] ; then
 fi
 
 echo "1st: Hello $NAME, script being run from `hostname`"
-echo "2nd: Hello $NAME_IN_SCRIPT, script being run from `hostname`"
-
+echo "2nd: Hello $NAME_IN_SCRIPT, script being run from `hostname` with IP `hostname -i`"
